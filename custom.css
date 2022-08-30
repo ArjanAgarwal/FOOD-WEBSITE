@@ -1,0 +1,73 @@
+body{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.img_responsive{
+    max-width: 100%;
+}
+.hero_image{
+    background: url(food1.jpg) no-repeat;
+    -webkit-background-size:cover ;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.hero_wrapper{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+}
+.hero_wrapper {
+    font-size: x-large;
+    text-align: center;
+    
+}
+.form_code .post_code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+
+}
+.form_code button
+{
+    width: 40%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    padding: .3rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius:.6 rem;
+}
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product_list_item
+{
+    float: left;
+    width: 32.33%;
+    margin-left: 0.4rem;
+    margin-top: 3rem;
+}
+.product_list_item :first-of-type{
+    margin-left: 0;
+}
+@media screen and (max-width:700px) {
+    .product_list_item{
+        width: 100%;
+        float: none;
+    }
+    
+}
